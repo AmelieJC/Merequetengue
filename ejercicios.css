@@ -1,0 +1,28 @@
+body{
+    background-color: lightgreen;
+}
+
+.seccionPrincipal{
+    border: 5px solid cornsilk;
+    height: 338px;
+    display:flex;
+
+    /**Alinear horizontal**/
+   justify-content: space-around;
+
+   /**Alinear vertical**/
+   align-items: center;
+}
+
+.seccionPrincipal_titulo{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    height: 30%;
+}
+
+.seccionPrincipal_texto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 30%;
+    width: 30%;
+}
+
